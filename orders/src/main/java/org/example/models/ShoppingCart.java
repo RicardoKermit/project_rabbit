@@ -12,7 +12,7 @@ public class ShoppingCart {
     private String customerVAT;
     private int quantity;
     private int price;
-    private float getAmount(){
+    public float getAmount(){
         return quantity * price;
     }
 }
